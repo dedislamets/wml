@@ -1,283 +1,544 @@
+<div class="slider-area ">
+    <div class="slider-active">
 
-<div class="card borderless-card">
-    <div class="card-block inverse-breadcrumb">
-        <div class="breadcrumb-header">
-            <h5>Dashboard</h5>
-            <span>Halaman Utama ini memuat sekilas rangkuman informasi</span>
+        <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/bg-main.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="hero__caption">
+                            <h1>Safe & Reliable <span>Logistic</span> Solutions!</h1>
+                        </div>
+
+                        <form action="#" class="search-box">
+                            <div class="input-form">
+                                <input type="text" placeholder="Your Tracking ID">
+                            </div>
+                            <div class="search-form">
+                                <a href="#">Track & Trace</a>
+                            </div>
+                        </form>
+
+                        <div class="hero-pera">
+                            <p>For order status inquiry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="page-header-breadcrumb">
-            <!-- <ul class="breadcrumb-title">
-                <li class="breadcrumb-item">
-                    <a href="#!">
-                        <i class="icofont icofont-home"></i>
-                    </a>
-                </li>
-                <li class="breadcrumb-item"><a href="#!">Dashboard</a>
-                </li>
+        <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/hero/h1_hero.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="hero__caption">
+                            <h1>Safe & Reliable <span>Logistic</span> Solutions!</h1>
+                        </div>
 
-            </ul> -->
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="row" id="app">
-    <!-- <div class="col-xl-6 col-md-12">
-        <div class="card user-card-full">
-            <div class="row m-l-0 m-r-0">
-                <div class="col-sm-4 bg-c-lite-green user-profile">
-                    <div class="card-block text-center text-white">
-                        <div class="m-b-25">
-                            <img src="<?= base_url(); ?>assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                        </div>
-                        <h6 class="f-w-600">Jeny William</h6>
-                        <p>Web Designer</p>
-                        <i class="feather icon-edit m-t-10 f-16"></i>
-                    </div>
-                </div>
-                <div class="col-sm-8" style="background: linear-gradient(to right, #546D77, #3F5159);;color: #fff;">
-                    <div class="card-block">
-                        <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Information</h6>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="m-b-10 f-w-600">Email</p>
-                                <h6 class="text-muted f-w-400"><a href="..\..\..\cdn-cgi\l\email-protection.htm" class="__cf_email__" data-cfemail="3a505f54437a5d575b535614595557">[email&#160;protected]</a></h6>
-                            </div>
-                            <div class="col-sm-6">
-                                <p class="m-b-10 f-w-600">Phone</p>
-                                <h6 class="text-muted f-w-400">0023-333-526136</h6>
-                            </div>
-                        </div>
-                        <h6 class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Projects</h6>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="m-b-10 f-w-600">Recent</p>
-                                <h6 class="text-muted f-w-400">Guruable Admin</h6>
-                            </div>
-                            <div class="col-sm-6">
-                                <p class="m-b-10 f-w-600">Most Viewed</p>
-                                <h6 class="text-muted f-w-400">Able Pro Admin</h6>
-                            </div>
-                        </div>
-                        <ul class="social-link list-unstyled m-t-40 m-b-10">
-                            <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="facebook"><i class="feather icon-facebook facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="twitter"><i class="feather icon-twitter twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#!" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="instagram"><i class="feather icon-instagram instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <?php if($this->session->userdata('role_id') ==  1 || $this->session->userdata('role_id') == 2): ?>
-    <div class="col-xl-12 col-md-12">
-        <div class="row">
-            <div class="col-xl-4 col-md-6">
-                <div class="card social-card bg-simple-c-pink">
-                    <div class="card-block">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <p class="m-b-5">ROUTING LIST</p>
-                                <h4 class="m-b-0"><?= $total_routing?></h4>
-                            </div>
-                            <div class="col col-auto text-right">
-                                <i class="feather icon-layers f-50 text-c-yellow"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#!" class="download-icon"><i class="feather icon-arrow-down"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="card social-card bg-simple-c-green">
-                    <div class="card-block">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <p class="m-b-5">DALAM PERJALANAN</p>
-                                <h4 class="m-b-0"><?= $perjalanan ?></h4>
-                            </div>
-                            <div class="col col-auto text-right">
-                                <i class="feather icon-navigation-2 f-50 text-c-yellow"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#!" class="download-icon"><i class="feather icon-arrow-down"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="card social-card bg-simple-c-blue" style="background-color: #3F5159;">
-                    <div class="card-block">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <p class="m-b-5">PICKUP</p>
-                                <h4 class="m-b-0"><?= $pickup ?></h4>
-                            </div>
-                            <div class="col col-auto text-right">
-                                <i class="feather icon-watch f-50 text-c-yellow"></i>
-                            </div>
-                        </div>
 
+<div class="our-info-area pt-20">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-info mb-30">
+                    <div class="info-icon">
+                        <span class="flaticon-support"></span>
                     </div>
-                    <a href="#!" class="download-icon"><i class="feather icon-arrow-down"></i></a>
+                    <div class="info-caption">
+                        <p>Call Us</p>
+                        <span>(021) 84998777</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-info mb-30">
+                    <div class="info-icon">
+                        <span class="flaticon-clock"></span>
+                    </div>
+                    <div class="info-caption">
+                        <p>Email Us</p>
+                        <span>sales@wmlogistics.co.id</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-info mb-30">
+                    <div class="info-icon">
+                        <span class="flaticon-place"></span>
+                    </div>
+                    <div class="info-caption">
+                        <p>Address</p>
+                        <span>Jatibening Baru - Pondok Gede</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="categories-area section-padding30" style="padding-bottom: 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="section-tittle text-center mb-40">
+                    <span>Our Services</span>
+                    <h2>What We Can Do For You</h2>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-4 col-md-12">
-              <div class="card">
-                <div class="card-block bg-c-green">
-                  <div id="proj-earning" style="height: 230px"></div>
-                </div>
-                <div class="card-footer">
-                  <h6 class="text-muted m-b-30 m-t-15">Total project and customer</h6>
-                  <div class="row text-center">
-                    <div class="col-6 b-r-default">
-                      <h6 class="text-muted m-b-10">Projects</h6>
-                      <h4 class="m-b-0 f-w-600 ">175</h4>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-shipped"></span>
                     </div>
-                    <div class="col-6">
-                      <h6 class="text-muted m-b-10">Total Customer</h6>
-                      <h4 class="m-b-0 f-w-600 ">76.6M</h4>
+                    <div class="cat-cap">
+                        <h5><a href="services.html">ROAD FREIGHT</a></h5>
+                        <p>Move all your packs and heart with us. Wahana Multi Logistics give the best serve you’ll never forget</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-ship"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a href="services.html">OCEAN FREIGHT</a></h5>
+                        <p>Competitive cost for ocean freight and offer much more flexibility in terms of space with Wahana Multi Logistics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-airplane"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a href="services.html">AIR FREIGHT</a></h5>
+                        <p>Fast and reliable. You deserve to get the best air freight services on it class by trust Wahana Multi Logistic</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-road"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a href="services.html">EXPEDITIED</a></h5>
+                        <p>Wahana Multi Logistics let you into the priority level, securing the quality and set the guaranted delivery time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gallery categories-area section-padding30" style="padding-bottom: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="section-tittle text-center mb-20">
+                    <h2>WHY CHOSE US</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <span>You are our priority</span>
+                          <i class="fas fa-plus" style="float: right;"></i>
+                        </a>
+                      </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        Get closer than ever to you. So close that we tell you what needed well before you realize it selves
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <span>Profesional staff ready to accompany you</span>
+                          <i class="fas fa-plus" style="float: right;"></i>
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        Our team is committed to delivering excellence throughout the process by understanding the company’s objectives
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <span>Competitive price</span>
+                          <i class="fas fa-plus" style="float: right;"></i>
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        We do well to ensure that our prices are very affordable compared to prevailing prices while at the same time providing you with superior quality
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h5 class="mb-0">
+                        <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <span>Experience services</span>
+                          <i class="fas fa-plus" style="float: right;"></i>
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="card-body">
+                        we’ll do our best to leverage our many years of experience to deliver the most professional service in the expedition
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-8 col-md-12">
-                <div class="card table-card">
-                    <div class="card-header btn-grd-danger">
-                      <h5>Status Terakhir di update</h5>
-                    </div>
-                    <div class="card-block">
-                      <div class="table-responsive">
-                        <table class="table table-hover table-borderless">
-                          <thead>
-                            <tr>
-                              <th>#</th>
-                              <th>Remark</th>
-                              <th>Updated</th>
-                              <th class="text-right">Updated By</th>
-                              <th>Status</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <?php foreach($history as $row): ?>
-                            <tr>
-                              <td><?= $row['no_routing']?></td>
-                              <td><?= $row['remark']?></td>
-                              <td><?= tgl_waktu_indo($row['created_date'])?></td>
-                              <td><?= $row['created_by']?></td>
-                              <td><?= $row['status']?></td>
-                            </tr>
-                            <?php endforeach ?>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div class="text-right  m-r-20">
-                        <a href="#!" class="b-b-primary text-primary">View all Sales Locations </a>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>   
-     <?php endif ?>
-    <?php if($this->session->userdata('role_id') ==  1 ): ?>
-    <div class="col-xl-12 col-md-12 hidden">
-        <div class="card">
-            <div class="card-header">
-                <h4>Update Terakhir Pengiriman</h4>
-                <div id="maps" style="height: 300px;"></div>
             </div>
         </div>
     </div>
-    <?php endif ?>
-    <?php if($this->session->userdata('role_id') ==  1 || $this->session->userdata('role_id') == 3): ?>
-    <div class="col-xl-9 col-md-12">
-
-        <div class="card">
-            <div class="card-header">
-              <h5>Grafik Payment 5 Bulan Terakhir</h5>
-              <span>Chart transaksi pembayaran dari customer dan ke vendor</span>
-            </div>
-            <div class="card-block">
-              <div id="chart_Combo" style="width: 100%; height: 300px;"></div>
-            </div>
-        </div>
-
-    </div>
-    <div class="col-xl-3 col-md-12">
-        <div class="card user-card2">
-            <div class="card-block text-center">
-                <h6 class="m-b-15 f-w-700">Due Date Invoice</h6>
-                <div class="risk-rate">
-                    <span><b><?= $total_duedate ?></b></span>
-                </div>
-                <h6 class="m-b-10 m-t-10">Customer</h6>
-                <a href="#!" class="text-c-yellow b-b-warning">Lihat Data</a>
-                
-            </div>
-        </div>
-        <div class="card user-card2">
-            <div class="card-block text-center">
-                <h6 class="m-b-15 f-w-700">Due Date Invoice</h6>
-                <div class="risk-rate">
-                    <span><b><?= $total_duedate_vendor ?></b></span>
-                </div>
-                <h6 class="m-b-10 m-t-10">Vendor</h6>
-                <a href="#!" class="text-c-yellow b-b-warning">Lihat Data</a>
-                
-            </div>
-        </div>
-    </div>
-    <?php endif ?>
-    <?php if($this->session->userdata('role_id') ==  1 || $this->session->userdata('role_id') == 4): ?>
-    <div class="col-xl-12 col-md-12">
+</div>
+<div class="gallery categories-area section-padding30" style="padding-bottom: 20px;">
+    <div class="container">
         <div class="row">
-            <?php foreach($list_kurir as $row): ?>
-            <div class="col-sm-6 ">
-                <div class="card z-depth-bottom-2">
-                    <div class="card-block">
-                        <div class="row b-b-default m-b-10 p-b-5">
-                          <div class="col-sm-4 f-w-600">No Routing</div>         
-                          <div class="col-sm-8">
-                            <h3><?= $row['no_routing']?></h3>
-                          </div>            
-                        </div>
-                        <div class="row b-b-default m-b-10 p-b-5">
-                          <div class="col-sm-4 f-w-600">Project</div>
-                          <div class="col-sm-8">
-                            <?= $row['nama_project']?>
-                          </div>
-                        </div>
-                        <div class="row b-b-default m-b-10 p-b-5">
-                          <div class="col-sm-4 f-w-600">Tujuan</div>        
-                          <div class="col-sm-8">
-                            <h3 style="font-size: 12pt;"><?= $row['kota_penerima']?></h3>
-                          </div>             
-                        </div>
-                        <div class="row b-b-default m-b-10 p-b-5">
-                          <div class="col-sm-4 f-w-600">Armada</div>
-                          <div class="col-sm-8">
-                            <h3 style="font-size: 9pt;"><?= $row['armada']?></h3>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-4 f-w-600">Status</div>
-                          <div class="col-sm-8">
-                            <h3 style="font-size: 9pt;"><?= $row['status']?></h3>
-                          </div>
-                        </div>
-                        <div class="row">
-                            <a href="trace/view/<?= $row['id']?>" class="btn btn-block btn-inverse btn-round">Update Status</a>
-                        </div>
-                    </div>
+            <div class="col-lg-12">
+
+                <div class="section-tittle text-center mb-20">
+                    <h2>Our Gallery</h2>
                 </div>
             </div>
-            <?php endforeach ?>
         </div>
- 
+        <div class="row">
+            <div class="col-xs-12">
+                <ul>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/5NZ-F_Resize-547x547-1.png" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wmlogistics-1-1024x768.jpeg" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wahana-multi-logistik-2-1024x768.jpeg" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wahana-multi-logistik-1-1024x768.jpeg" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/wmlogistics-crane3-1024x768.jpg" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/WhatsApp-Image-2020-03-15-at-14.40.20-768x1024.jpeg" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Bio-Bottle-3672-F_ResizeSquare-547x547.png" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/BB-PPM-3095-F_Resize-547x547.png" alt="Image"></a></figure></li>
+                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wmlogistics-2-1024x768.jpeg" alt="Image"></a></figure></li>
+                </ul>
+            </div>
+        </div>
     </div>
-
-    <?php endif ?>
 </div>
 
+<div class="about-low-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="about-caption mb-50">
+
+                    <div class="section-tittle mb-35">
+                        <span>About Our Company</span>
+                        <h2>Safe Logistic & Transport Solutions That Saves our Valuable Time!</h2>
+                    </div>
+                    <p>Wahana Multi Logistik (WML) agrees and has highest commitment to being able to meet or exceed customer expectations and maintain the quality of service to customers by applying the concept of appropriate operations, continuous improvement, helpful, trustworthiness and cooperation, by enforcing the efficiency of logistics services and providing a health workplace and safety</p>
+                    <a href="about.html" class="btn">More About Us</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+
+                <div class="about-img ">
+                    <!-- <div class="about-font-img">
+                        <img src="assets/img/gallery/about2.png" alt="">
+                    </div> -->
+                    <iframe width="560" height="415" src="https://www.youtube.com/embed/NtUZ_w7tSP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <section class="contact-form-area section-bg  pt-115 pb-120 fix" data-background="assets/img/gallery/section_bg02.jpg">
+    <div class="container">
+        <div class="row justify-content-end">
+
+            <div class="col-xl-8 col-lg-9">
+                <div class="contact-form-wrapper">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <div class="section-tittle mb-50">
+                                <span>Get a Qote For Free</span>
+                                <h2>Request a Free Quote</h2>
+                                <p>Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="#" class="contact-form">
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="input-form">
+                                    <input type="text" placeholder="Contact Number">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="select-items">
+                                    <select name="select" id="select1">
+                                        <option value="">Freight Type</option>
+                                        <option value="">Catagories One</option>
+                                        <option value="">Catagories Two</option>
+                                        <option value="">Catagories Three</option>
+                                        <option value="">Catagories Four</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="City of Departure">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="Incoterms">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="Weight">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="Height">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="Width">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="input-form">
+                                    <input type="text" placeholder="length">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="radio-wrapper mb-30 mt-15">
+                                    <label>Extra services:</label>
+                                    <div class="select-radio">
+                                        <div class="radio">
+                                            <input id="radio-1" name="radio" type="radio" checked="">
+                                            <label for="radio-1" class="radio-label">Freight</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input id="radio-2" name="radio" type="radio">
+                                            <label for="radio-2" class="radio-label">Express Delivery</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input id="radio-4" name="radio" type="radio">
+                                            <label for="radio-4" class="radio-label">Insurance</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input id="radio-5" name="radio" type="radio">
+                                            <label for="radio-5" class="radio-label">Packaging</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <button name="submit" class="submit-btn">Request a Quote</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="ftco-section testimony-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center pb-3 mb-3">
+            <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
+                <span class="subheading">Testimonies</span>
+                <h2>Happy Clients &amp; Feedbacks</h2>
+            </div>
+        </div>
+        <div class="row ftco-animate">
+            <div class="col-md-12">
+                <div class="carousel-testimony owl-carousel ftco-owl">
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(assets/img/comment/comment_1.png)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(assets/img/comment/comment_2.png)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(assets/img/comment/comment_3.png)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(assets/img/comment/comment_1.png)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(assets/img/comment/comment_2.png)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="clients section-bg" style="background-color: #fff;">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="section-tittle text-center mb-80">
+                <span style="margin-top: 15px;">Our Clients</span>
+                <h2>THE BEST PARTNER WHO TRUST US</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul>
+            <li>
+              <figure>
+                <h5><img src="assets/img/TelkomIndonesia.png" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="<?= base_url(); ?>assets/img/logo-inkop.png" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="<?= base_url(); ?>assets/img/rsz_dhl.jpg" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="<?= base_url(); ?>assets/img/rsz_2logo-pt-len-industri-persero.png" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="<?= base_url(); ?>assets/img/logo_ta-1024x341.png" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="<?= base_url(); ?>assets/img/Logo-TPK-New_Smaller_V2-921x1024.jpg" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="<?= base_url(); ?>assets/img/KUR-BRI.jpg" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="<?= base_url(); ?>assets/img/1551665240445-e1580388063157.png" alt="Image"></h5>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </div> 
+    </div>
+</section>
