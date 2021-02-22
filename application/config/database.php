@@ -75,10 +75,15 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'database' => 'expedisi',
+	// 'database' => 'expedisi',
+	// 'hostname' => 'localhost',
+	// 'username' => 'root',
+	// 'password'	=> '123',
+
+	'username' => 'u9892485_sistem',
+	'database' => 'u9892485_expedisi',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password'	=> '123',
+	'password'	=> 'wmlogistics123^',
 	
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
