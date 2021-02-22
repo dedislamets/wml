@@ -592,7 +592,7 @@
         </div>
 
 
-        <div class="our-info-area pt-70 pb-40">
+        <div class="our-info-area pt-20">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -638,7 +638,7 @@
                 <div class="row">
                     <div class="col-lg-12">
 
-                        <div class="section-tittle text-center mb-80">
+                        <div class="section-tittle text-center mb-40">
                             <span>Our Services</span>
                             <h2>What We Can Do For You</h2>
                         </div>
