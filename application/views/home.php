@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
     <style type="text/css">
+        @media (max-width: 575px){
+            .about-low-area{
+                display: none;
+            }
+        }
         .card h5 a:hover {
             color: #a91605;
         }
