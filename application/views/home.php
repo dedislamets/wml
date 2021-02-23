@@ -521,13 +521,13 @@
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>"><span>Home</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>about"><span>About</span></a></li>
                                                 <li class="blue-bg"><a href="#"><span>Services</span></a></li>
-                                                <li class="blue-bg"><a href="blog.html"><span>Blog</span></a>
+                                                <!-- <li class="blue-bg"><a href="blog.html"><span>Blog</span></a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.html">Blog</a></li>
                                                         <li><a href="blog_details.html">Blog Details</a></li>
                                                         <li><a href="elements.html">Element</a></li>
                                                     </ul>
-                                                </li>
+                                                </li> -->
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>contact"><span>Contact</span></a></li>
                                             </ul>
                                         </nav>

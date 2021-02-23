@@ -1,13 +1,13 @@
 <div class="slider-area ">
     <div class="slider-active">
 
-        <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/bg-main.jpg);">
+        <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/slider1.jpeg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9 col-lg-9">
-                        <div class="hero__caption">
+                        <!-- <div class="hero__caption">
                             <h1>Safe & Reliable <span>Logistic</span> Solutions!</h1>
-                        </div>
+                        </div> -->
 
                         <form action="#" class="search-box">
                             <div class="input-form">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/hero/h1_hero.jpg);">
+        <!-- <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/hero/h1_hero.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9 col-lg-9">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
