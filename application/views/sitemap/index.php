@@ -11,19 +11,19 @@
   </url>
   <url>
     <loc><?= base_url('about') ?></loc>
-    <lastmod>2021-03-30 12:00:00</lastmod>
+    <lastmod>30-03-2021 12:00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc><?= base_url('services') ?></loc>
-    <lastmod>2021-03-31 12:40:00</lastmod>
+    <lastmod>31-03-2021 12:40:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc><?= base_url('contact') ?></loc>
-    <lastmod>2021-03-31 12:42:00</lastmod>
+    <lastmod>31-03-2021 12:42:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.1</priority>
   </url>
