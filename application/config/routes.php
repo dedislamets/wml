@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['register'] = 'register';
-
+$route['sitemap\.xml'] = 'sitemap';
 $route['default_controller'] = 'home';
 $route['404_override'] = 'galat';
 $route['translate_uri_dashes'] = FALSE;
