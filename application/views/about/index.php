@@ -45,7 +45,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12">
 
-				<div class="about-img ">
+				<div class="about-img wow slideInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
 					<div class="about-font-img">
 						<img class="img img-responsive" src="<?= base_url(); ?>assets/img/Pengiriman-Sampel-COVID-19-wahana-multi-logistik-2-1024x768.jpeg" alt="">
 					</div>

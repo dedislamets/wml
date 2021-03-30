@@ -20,19 +20,42 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
     <style type="text/css">
+        .slider-height {
+            min-height: 630px;
+        }
         .slider-height2 {
             min-height: 160px;
+        }
+
+        .main-header{
+            position: sticky;
+            left: 0;
+            right: 0;
+            top: 20px;
+            z-index: 9999;
+            /*background-color: transparent;*/
+            -webkit-transition: .5s;
+            transition: .5s;
+            padding: 10px;
         }
         @media (max-width: 575px){
             .about-low-area{
                 display: none;
+            }
+            .main-header{
+                position: relative !important;
+                top: 0 !important;
             }
         }
         .card h5 a:hover {
             color: #a91605;
         }
         .header-area {
-            background: #a91605;
+            background: rgba(16, 24, 79, 0.95);
+            /*background: linear-gradient( 45deg, #202168, #07103b);*/
+            z-index: auto;
+            position: static;
+            top: auto;
         }
         .header-sticky.sticky-bar {
             background: #a91605;
@@ -40,6 +63,7 @@
         .footer-area {
             background: #040474;
         }
+        
         .main-menu ul li:after {
             /*content: url(assets/img/line-menu.png);
             position: absolute;
@@ -48,6 +72,7 @@
         }
         .main-header .main-menu ul li a {
             margin: 10px 0;
+            border: solid;
             padding: 4px 19px;
             display: inline-block;
             text-decoration:none;
@@ -87,12 +112,16 @@
                 padding-bottom: 170px;
             }
         }
+        .categories-area .single-cat .cat-icon span {
+            margin-bottom: 0px;
+        }
         .categories-area .single-cat::before {
             background: #a91605;
         }
         .categories-area .single-cat {
             background: #1a1a4c;
-             background-image: -webkit-radial-gradient(top, circle cover, #27246d 0%, #1a1a4c 80%);
+            padding: 18px 22px;
+             background-image: -webkit-radial-gradient(top, circle cover, #27246d 50%, #7676b4 50%);
              background-image: -moz-radial-gradient(top, circle cover, #27246d 0%, #1a1a4c 80%);
              background-image: -o-radial-gradient(top, circle cover, #27246d 0%, #1a1a4c 80%);
              background-image: radial-gradient(top, circle cover, #27246d 0%, #1a1a4c 80%)
@@ -103,6 +132,7 @@
         }
         .categories-area .single-cat .cat-cap p {
             color: #fff;
+            padding-top: 65px;
         }
         .slider-area form.search-box .search-form a {
             background: #a91605;
@@ -111,7 +141,7 @@
             color:#040474;
         }
         .btn {
-            background: #a91605;
+            background: #d71700;
         }
         .clients {
             width: 100%;
@@ -520,7 +550,7 @@
                                             <ul id="navigation">
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>"><span>Home</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>about"><span>About</span></a></li>
-                                                <li class="blue-bg"><a href="#"><span>Services</span></a></li>
+                                                <li class="blue-bg"><a href="<?= base_url(); ?>services"><span>Services</span></a></li>
                                                 <!-- <li class="blue-bg"><a href="blog.html"><span>Blog</span></a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.html">Blog</a></li>
@@ -648,11 +678,15 @@
     <script src="<?= base_url(); ?>assets/js/jquery.validate.min.js"></script>
     <script src="<?= base_url(); ?>assets/js/mail-script.js"></script>
     <script src="<?= base_url(); ?>assets/js/jquery.ajaxchimp.min.js"></script>
-
+    <script src="<?= base_url(); ?>assets/js/tilt.jquery.js"></script>
     <script src="<?= base_url(); ?>assets/js/plugins.js"></script>
     <script src="<?= base_url(); ?>assets/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
+            
+
+            onHoverthreeDmovement();
+
             $(".collapse.show").each(function(){
                 $(this).prev(".card-header").find(".fas").addClass("fa-minus").removeClass("fa-plus");
             });
@@ -663,6 +697,19 @@
                 $(this).prev(".card-header").find(".fas").removeClass("fa-minus").addClass("fa-plus");
             });
         });
+
+        function onHoverthreeDmovement() {
+            var tiltBlock = $('.js-tilt');
+            if(tiltBlock.length) {
+                $('.js-tilt').tilt({
+                    maxTilt: 20,
+                    perspective:700, 
+                    glare: true,
+                    maxGlare: 0
+                })
+            }
+        }
+      
     </script>
 </body>
 </html>

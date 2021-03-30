@@ -6,7 +6,6 @@
 
 <script type="text/javascript">
   $(document).ready(function(){ 
-    
     //Combo chart
     google.charts.load('current', { 'packages': ['corechart'] });
     google.charts.setOnLoadCallback(drawVisualization);
@@ -33,6 +32,8 @@
         var chart = new google.visualization.ComboChart(document.getElementById('chart_Combo'));
         chart.draw(data, options);
     }
+
+
 
 
     AmCharts.makeChart(
@@ -181,4 +182,5 @@
 
   }
   
+
 </script>

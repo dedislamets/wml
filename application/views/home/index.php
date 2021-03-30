@@ -1,15 +1,26 @@
+<style type="text/css">
+    .slider-area{
+        position: relative;
+    }
+    .our-info-area{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        opacity: .9;
+    }
+</style>
 <div class="slider-area ">
     <div class="slider-active">
 
-        <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/slider1.jpeg);">
+        <div class="single-slider slider-height d-flex align-items-center" style="background-image: url('assets/img/slider1.jpeg');">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-end">
                     <div class="col-xl-9 col-lg-9">
                         <!-- <div class="hero__caption">
                             <h1>Safe & Reliable <span>Logistic</span> Solutions!</h1>
                         </div> -->
 
-                        <form action="#" class="search-box">
+                        <!-- <form action="#" class="search-box">
                             <div class="input-form">
                                 <input type="text" placeholder="Your Tracking ID">
                             </div>
@@ -20,67 +31,63 @@
 
                         <div class="hero-pera">
                             <p>For order status inquiry</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(assets/img/hero/h1_hero.jpg);">
+        <!-- <div class="single-slider slider-height d-flex align-items-center" style="background-image: url('assets/img/slide wml.jpg');">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-end">
                     <div class="col-xl-9 col-lg-9">
-                        <div class="hero__caption">
-                            <h1>Safe & Reliable <span>Logistic</span> Solutions!</h1>
-                        </div>
-
                         
                     </div>
                 </div>
             </div>
         </div> -->
     </div>
-</div>
-
-
-<div class="our-info-area pt-20">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-info mb-30">
-                    <div class="info-icon">
-                        <span class="flaticon-support"></span>
-                    </div>
-                    <div class="info-caption">
-                        <p>Call Us</p>
-                        <span>(021) 84998777</span>
+    <div class="our-info-area pt-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-info mb-30">
+                        <div class="info-icon">
+                            <span class="flaticon-support"></span>
+                        </div>
+                        <div class="info-caption">
+                            <p>Call Us</p>
+                            <span>(021) 84998777</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-info mb-30">
-                    <div class="info-icon">
-                        <span class="flaticon-clock"></span>
-                    </div>
-                    <div class="info-caption">
-                        <p>Email Us</p>
-                        <span>sales@wmlogistics.co.id</span>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-info mb-30">
+                        <div class="info-icon">
+                            <span class="flaticon-clock"></span>
+                        </div>
+                        <div class="info-caption">
+                            <p>Email Us</p>
+                            <span>sales@wmlogistics.co.id</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-info mb-30">
-                    <div class="info-icon">
-                        <span class="flaticon-place"></span>
-                    </div>
-                    <div class="info-caption">
-                        <p>Address</p>
-                        <span>Jatibening Baru - Pondok Gede</span>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-info mb-30">
+                        <div class="info-icon">
+                            <span class="flaticon-place"></span>
+                        </div>
+                        <div class="info-caption">
+                            <p>Address</p>
+                            <span>Jatibening Baru - Pondok Gede</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 <div class="categories-area section-padding30" style="padding-bottom: 0;">
@@ -94,9 +101,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row wow slideInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cat text-center mb-50">
+                <div class="single-cat text-center mb-50 js-tilt">
                     <div class="cat-icon">
                         <span class="flaticon-shipped"></span>
                     </div>
@@ -107,7 +114,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cat text-center mb-50">
+                <div class="single-cat text-center mb-50 js-tilt">
                     <div class="cat-icon">
                         <span class="flaticon-ship"></span>
                     </div>
@@ -118,7 +125,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cat text-center mb-50">
+                <div class="single-cat text-center mb-50 js-tilt">
                     <div class="cat-icon">
                         <span class="flaticon-airplane"></span>
                     </div>
@@ -129,7 +136,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cat text-center mb-50">
+                <div class="single-cat text-center mb-50 js-tilt">
                     <div class="cat-icon">
                         <span class="flaticon-road"></span>
                     </div>
@@ -147,7 +154,7 @@
         <div class="row">
             <div class="col-lg-12">
 
-                <div class="section-tittle text-center mb-20">
+                <div class="section-tittle text-center mb-20 wow pulse" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <h2>WHY CHOSE US</h2>
                 </div>
             </div>
@@ -155,7 +162,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div id="accordion">
-                  <div class="card">
+                  <div class="card wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <div class="card-header" id="headingOne">
                       <h5 class="mb-0">
                         <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -171,7 +178,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card wow slideInRight" data-wow-delay="400ms" data-wow-duration="1500ms" >
                     <div class="card-header" id="headingTwo">
                       <h5 class="mb-0">
                         <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -186,7 +193,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <div class="card-header" id="headingThree">
                       <h5 class="mb-0">
                         <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -201,7 +208,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card wow slideInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <div class="card-header" id="headingFour">
                       <h5 class="mb-0">
                         <a href="#" style="display: block;" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -234,15 +241,66 @@
         <div class="row">
             <div class="col-xs-12">
                 <ul>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/5NZ-F_Resize-547x547-1.png" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wmlogistics-1-1024x768.jpeg" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wahana-multi-logistik-2-1024x768.jpeg" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wahana-multi-logistik-1-1024x768.jpeg" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/wmlogistics-crane3-1024x768.jpg" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/WhatsApp-Image-2020-03-15-at-14.40.20-768x1024.jpeg" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Bio-Bottle-3672-F_ResizeSquare-547x547.png" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/BB-PPM-3095-F_Resize-547x547.png" alt="Image"></a></figure></li>
-                    <li><figure><a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Pengiriman-Sampel-COVID-19-wmlogistics-2-1024x768.jpeg" alt="Image"></a></figure></li>
+                    <li class="wow flipInY" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/5NZ-F_Resize-547x547-1.png" alt="Image"></a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/Pengiriman-Sampel-COVID-19-wmlogistics-1-1024x768.jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/Pengiriman-Sampel-COVID-19-wahana-multi-logistik-2-1024x768.jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/Pengiriman-Sampel-COVID-19-wahana-multi-logistik-1-1024x768.jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/wmlogistics-crane3-1024x768.jpg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/WhatsApp-Image-2020-03-15-at-14.40.20-768x1024.jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="500ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox"><img src="assets/img/Bio-Bottle-3672-F_ResizeSquare-547x547.png" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/BB-PPM-3095-F_Resize-547x547.png" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/Pengiriman-Sampel-COVID-19-wmlogistics-2-1024x768.jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -265,7 +323,7 @@
             </div>
             <div class="col-lg-6 col-md-12">
 
-                <div class="about-img ">
+                <div class="about-img wow slideInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <!-- <div class="about-font-img">
                         <img src="assets/img/gallery/about2.png" alt="">
                     </div> -->
