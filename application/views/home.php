@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Wahana Multi Logistics</title>
-    <meta name="description" content="">
+    <meta name="description" content="wmlogistics,wml,wahana multi logistik, wahana, wmlogistics.co.id">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="SDsevYWVCOfZySvTRsctRyMg0YG13gwyNaYHGiuqh24" />
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>assets/img/favicon.png">
@@ -622,12 +622,12 @@
                 <div class="col-xs-6 col-sm-2 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
                     <h4>MAIN LINKS</h4>
                     <nav>
-                        <a href="01_home.html">Home</a>
-                        <a href="06_services.html">Our Services</a>
-                        <a href="04_about.html">About Us</a>
-                        <a href="07_services.html">News</a>
-                        <a href="10_blog.html">Shop</a>
-                        <a href="12_contact.html">Contact</a>
+                        <a href="<?= base_url() ?>">Home</a>
+                        <a href="<?= base_url() ?>services">Our Services</a>
+                        <a href="<?= base_url() ?>about">About Us</a>
+                        <a href="#">News</a>
+                        <a href="#">Shop</a>
+                        <a href="<?= base_url() ?>contact">Contact</a>
                     </nav>
                 </div>
                 <div class="col-xs-6 col-sm-4 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
