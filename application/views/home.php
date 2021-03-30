@@ -6,6 +6,7 @@
     <title>Wahana Multi Logistics</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="SDsevYWVCOfZySvTRsctRyMg0YG13gwyNaYHGiuqh24" />
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>assets/img/favicon.png">
 
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/bootstrap.min.css">
