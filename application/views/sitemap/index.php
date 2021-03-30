@@ -21,4 +21,10 @@
     <changefreq>daily</changefreq>
     <priority>0.1</priority>
   </url>
+  <url>
+    <loc><?= base_url('contact') ?></loc>
+    <lastmod>2021-03-31 12:42:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.1</priority>
+  </url>
 </urlset>
