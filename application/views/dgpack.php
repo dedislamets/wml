@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Wahana Multi Logistics</title>
+    <title>Wahana DGPack</title>
     <meta name="description" content="wmlogistics,wml,wahana multi logistik,wahana,wmlogistics.co.id,dgpack,logistik">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="SDsevYWVCOfZySvTRsctRyMg0YG13gwyNaYHGiuqh24" />
@@ -52,8 +52,7 @@
             color: #a91605;
         }
         .header-area {
-            background: rgba(16, 24, 79, 0.95);
-            /*background: linear-gradient( 45deg, #202168, #07103b);*/
+            background:#a91605;
             z-index: auto;
             position: static;
             top: auto;
@@ -140,6 +139,18 @@
         }
         .slider-area .hero__caption h1{
             color:#040474;
+            text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
         }
         .btn {
             background: #d71700;
@@ -538,35 +549,30 @@
                     <div class="container">
                         <div class="row align-items-center">
 
-                            <div class="col-xl-2 col-lg-2">
+                            <div class="col-xl-4 col-lg-4">
                                 <div class="logo">
-                                    <a href="<?= base_url(); ?>"><img src="<?= base_url(); ?>assets/img/logo-wml-2.png" style="width: 200px;" alt=""></a>
+                                    <a href="<?= base_url(); ?>dgpack">
+                                        <img src="<?= base_url(); ?>assets/img/logo-wml-2.png" style="width: 200px;" alt="Wahana DGPack">
+                                        <img src="<?= base_url(); ?>assets/img/dgpack/logo.png" style="width: 150px;" alt="Wahana DGPack">
+                                    </a>
                                 </div>
                             </div>
-                            <div class="col-xl-10 col-lg-10">
+                            <div class="col-xl-8 col-lg-8">
                                 <div class="menu-wrapper  d-flex align-items-center justify-content-end">
 
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li class="blue-bg"><a href="<?= base_url(); ?>"><span>Home</span></a></li>
-                                                <li class="blue-bg"><a href="<?= base_url(); ?>about"><span>About</span></a></li>
+                                                <li class="blue-bg"><a href="<?= base_url(); ?>dgpack"><span>Home</span></a></li>
+                                                <li class="blue-bg"><a href="<?= base_url(); ?>about"><span>Products</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>services"><span>Services</span></a></li>
-                                                <!-- <li class="blue-bg"><a href="blog.html"><span>Blog</span></a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
-                                                        <li><a href="elements.html">Element</a></li>
-                                                    </ul>
-                                                </li> -->
+                                                <li class="blue-bg"><a href="<?= base_url(); ?>contact"><span>Sertificates</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>contact"><span>Contact</span></a></li>
                                             </ul>
                                         </nav>
                                     </div>
 
-                                    <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="#" class="btn header-btn">Wahana DGPack</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
 
