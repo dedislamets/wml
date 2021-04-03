@@ -565,7 +565,7 @@
                                     </div>
 
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="#" class="btn header-btn">Wahana DGPack</a>
+                                        <a href="<?= base_url(); ?>dgpack" class="btn header-btn">Wahana DGPack</a>
                                     </div>
                                 </div>
                             </div>
