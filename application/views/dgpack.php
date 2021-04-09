@@ -688,8 +688,8 @@
                             <div class="col-xl-4 col-lg-4">
                                 <div class="logo">
                                     <a href="<?= base_url(); ?>dgpack">
-                                        <img src="<?= base_url(); ?>assets/img/logo-wml-2.png" style="width: 200px;" alt="Wahana DGPack">
-                                        <img src="<?= base_url(); ?>assets/img/dgpack/logo.png" style="width: 150px;" alt="Wahana DGPack">
+                                        <img src="<?= base_url(); ?>assets/img/logo-wml-2.png" style="width: 190px;" alt="Wahana DGPack">
+                                        <img src="<?= base_url(); ?>assets/img/dgpack/logo.png" style="width: 100px;" alt="Wahana DGPack">
                                     </a>
                                 </div>
                             </div>
