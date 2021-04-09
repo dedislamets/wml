@@ -144,57 +144,6 @@
         color: #222;
     }
 
-    .sec-title {
-        position: relative;
-        display: block;
-    }
-    .sec-title.center h2:before, .sec-title.center h2:after {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .sec-title h2:before {
-        position: absolute;
-        content: '';
-        background: #cccccc;
-        width: 130px;
-        height: 2px;
-        left: 0px;
-        bottom: 0px;
-    }
-    .sec-title.center h2:before, .sec-title.center h2:after {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .sec-title h2:after {
-        position: absolute;
-        content: '';
-        background: #777777;
-        width: 45px;
-        height: 4px;
-        left: 0px;
-        bottom: 0px;
-        transition: all 500ms ease;
-        -webkit-mask-image: linear-gradient(
-    -75deg
-    , rgba(244,55,55,0.6) 50%, #f43737 50%, rgba(0,0,0,1) 70%);
-        -webkit-mask-size: 200%;
-        animation: shine 2s infinite;
-    }
-    .sec-title.center h2, .sec-title.center p {
-        text-align: center;
-    }
-    .sec-title h2 {
-        position: relative;
-        display: block;
-        font-size: 36px;
-        line-height: 48px;
-        color: #222222;
-        font-weight: 500;
-        padding-bottom: 31px;
-        margin-bottom: 31px;
-    }
 </style>
 <div class="slider-area ">
     <div class="slider-active">

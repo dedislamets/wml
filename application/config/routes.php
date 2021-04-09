@@ -56,6 +56,6 @@ $route['404_override'] = 'galat';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['logout'] = "Login/keluar";
+$route['dgpack/dry-ice'] = "dgpack/dryice";
 
 // $route['^(rbac)/(.+)$'] = $route['default_controller']."/index/$1/$2";

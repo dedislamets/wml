@@ -21,6 +21,129 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
     <style type="text/css">
+        .masonry {
+          columns: 3;
+          column-gap: 16px;
+        }
+        @media (max-width: 1200px) {
+          .masonry {
+            columns: 3;
+          }
+        }
+        @media (max-width: 992px) {
+          .masonry {
+            columns: 2;
+          }
+        }
+        .masonry .grid {
+          /*display: inline-block;*/
+          margin-bottom: 16px;
+          position: relative;
+        }
+        .masonry .grid:before {
+          border-radius: 5px;
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+        .masonry .grid img {
+          width: 100%;
+          border-radius: 5px;
+        }
+        .masonry .grid__title {
+          font-size: 28px;
+          font-weight: bold;
+          margin: 0px 0px 10px 0px;
+          color: #fff;
+        }
+        .masonry .grid__author {
+          font-size: 14px;
+          font-weight: 300;
+        }
+        .masonry .grid__link {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+        }
+        .masonry .grid__body {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          padding: 30px 30px;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+        }
+        .masonry .grid__tag {
+          background-color: rgba(255, 255, 255, 0.8);
+          color: #333;
+          border-radius: 5px;
+          padding: 5px 15px;
+          margin-bottom: 5px;
+        }
+
+        .mt-auto {
+          margin-top: auto;
+        }
+        .sec-title {
+            position: relative;
+            display: block;
+        }
+        .sec-title.center h2:before, .sec-title.center h2:after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .sec-title h2:before {
+            position: absolute;
+            content: '';
+            background: #cccccc;
+            width: 130px;
+            height: 2px;
+            left: 0px;
+            bottom: 0px;
+        }
+        .sec-title.center h2:before, .sec-title.center h2:after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .sec-title h2:after {
+            position: absolute;
+            content: '';
+            background: #777777;
+            width: 45px;
+            height: 4px;
+            left: 0px;
+            bottom: 0px;
+            transition: all 500ms ease;
+            -webkit-mask-image: linear-gradient(
+        -75deg
+        , rgba(244,55,55,0.6) 50%, #f43737 50%, rgba(0,0,0,1) 70%);
+            -webkit-mask-size: 200%;
+            animation: shine 2s infinite;
+        }
+        .sec-title.center h2, .sec-title.center p {
+            text-align: center;
+        }
+        .sec-title h2 {
+            position: relative;
+            display: block;
+            font-size: 36px;
+            line-height: 48px;
+            color: #222222;
+            font-weight: 500;
+            padding-bottom: 31px;
+            margin-bottom: 31px;
+        }
         .slider-height {
             min-height: 630px;
         }
@@ -564,8 +687,9 @@
                                         <nav>
                                             <ul id="navigation">
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>dgpack"><span>Home</span></a></li>
-                                                <li class="blue-bg"><a href="<?= base_url(); ?>about"><span>Products</span></a></li>
+                                                <li class="blue-bg"><a href="<?= base_url(); ?>dgpack/products"><span>Products</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>services"><span>Services</span></a></li>
+                                                <li class="blue-bg"><a href="http://www.atrhaya.co.id"><span>Training</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>contact"><span>Sertificates</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>contact"><span>Contact</span></a></li>
                                             </ul>
@@ -688,6 +812,7 @@
     <script src="<?= base_url(); ?>assets/js/tilt.jquery.js"></script>
     <script src="<?= base_url(); ?>assets/js/plugins.js"></script>
     <script src="<?= base_url(); ?>assets/js/main.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             

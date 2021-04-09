@@ -15,5 +15,47 @@ class Dgpack extends CI_Controller {
 		$this->load->view('dgpack',$data,FALSE); 			  
 						
 	}
-	
+
+	public function products()
+	{		
+		$data['main'] = 'dgpack/product';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
+	public function single()
+	{		
+		$data['main'] = 'dgpack/single';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
+	public function wooden()
+	{		
+		$data['main'] = 'dgpack/wooden';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
+	public function innerpack()
+	{		
+		$data['main'] = 'dgpack/inner';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
+	public function vermiculite()
+	{		
+		$data['main'] = 'dgpack/vermiculite';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
+	public function dryice()
+	{		
+		$data['main'] = 'dgpack/dry';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
+	public function labels()
+	{		
+		$data['main'] = 'dgpack/labels';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
 }
