@@ -21,6 +21,19 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/nice-select.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
     <style type="text/css">
+        .container-mobile {
+            width: 100%;
+            padding: 0 100px;
+        }
+        @media (max-width: 575px){
+            .container-mobile {
+                width: 100%;
+                padding: 0 15px;
+            }
+        }
+        .p-product {        
+            padding: 0 15px;
+        }
         .masonry {
           columns: 3;
           column-gap: 16px;

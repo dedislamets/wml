@@ -63,7 +63,7 @@
 	
 </style>
 <div class="row p-10">
-	<div class="" style="width: 100%;padding: 0 100px;">
+	<div class="container-mobile">
 	    <div class="row">
 	        <div class="col">
 	            <nav aria-label="breadcrumb">
@@ -76,7 +76,7 @@
 	        </div>
 	    </div>
 	</div>
-	<div class="" style="padding:0 100px;">
+	<div class="container-mobile" >
 	    <div class="row">
 	        <div class="col-12 col-sm-3">
 	            <div class="card bg-light mb-3">

@@ -63,7 +63,7 @@
 	
 </style>
 <div class="row p-10">
-	<div class="" style="width: 100%;padding: 0 100px;">
+	<div class="container-mobile">
 	    <div class="row">
 	        <div class="col">
 	            <nav aria-label="breadcrumb">
@@ -76,7 +76,7 @@
 	        </div>
 	    </div>
 	</div>
-	<div class="" style="padding:0 100px;">
+	<div class="container-mobile" >
 	    <div class="row">
 	        <div class="col-12 col-sm-3">
 	            <div class="card bg-light mb-3">
@@ -100,7 +100,7 @@
 		                    <h2>UN Packaging</h2>
 		                </div>
 		            </div>
-		            <p>UN Approved Dangerous Goods Packaging Materials 4G or 4GV Fiberboard Box, 4D Plywood Box, Steel Drum Customized 100% Plywood and or Heat Treated Crates</p>
+		            <p class="p-product">UN Approved Dangerous Goods Packaging Materials 4G or 4GV Fiberboard Box, 4D Plywood Box, Steel Drum Customized 100% Plywood and or Heat Treated Crates</p>
 	        		<div class="masonry">
 					  <div class="grid">
 					    <img src="<?= base_url()?>assets/img/dgpack/product/Screenshot_1.png">

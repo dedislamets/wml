@@ -63,7 +63,7 @@
 	
 </style>
 <div class="row p-10">
-	<div class="" style="width: 100%;padding: 0 100px;">
+	<div class="container-mobile" >
 	    <div class="row">
 	        <div class="col">
 	            <nav aria-label="breadcrumb">
@@ -76,7 +76,7 @@
 	        </div>
 	    </div>
 	</div>
-	<div class="" style="padding:0 100px;">
+	<div class="container-mobile" >
 	    <div class="row">
 	        <div class="col-12 col-sm-3">
 	            <div class="card bg-light mb-3">
@@ -100,9 +100,9 @@
 		                    <h2>Vermiculite Packaging</h2>
 		                </div>
 		            </div>
-		            <p>Vermiculite is a naturally occurring mineral which is completely inert, lightweight, compressible and absorbent. Because of this characteristics, it is an ideal packing material which is widely used in shipping. Because it is extremely versatile and absorbent,  it can be used for packing hazardous materials and liquids, ranging from paints, batteries, infectious substance to explosive chemicals even cosmetic and perfumes can be classified as dangerous good which require to be transferred with care.</p>
+		            <p class="p-product">Vermiculite is a naturally occurring mineral which is completely inert, lightweight, compressible and absorbent. Because of this characteristics, it is an ideal packing material which is widely used in shipping. Because it is extremely versatile and absorbent,  it can be used for packing hazardous materials and liquids, ranging from paints, batteries, infectious substance to explosive chemicals even cosmetic and perfumes can be classified as dangerous good which require to be transferred with care.</p>
 
-					<p>Exfoliated vermiculite is easily poured around odd shaped objects and provides cushion against shock.  It is reported that coarse grade of this mineral can absorb around one gallon of water per cubic foot of material and it is the best known material for multi-purpose shipping and packing.</p>
+					<p class="p-product">Exfoliated vermiculite is easily poured around odd shaped objects and provides cushion against shock.  It is reported that coarse grade of this mineral can absorb around one gallon of water per cubic foot of material and it is the best known material for multi-purpose shipping and packing.</p>
 	        		<div class="col-lg-12">
 		            	<img src="<?= base_url()?>assets/img/dgpack/product/photo_2018-09-05_10-44-03.jpg" style="width: 100%; margin-bottom: 10px;">
 		            </div>
