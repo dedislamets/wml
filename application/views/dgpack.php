@@ -429,7 +429,7 @@
         }
         .logo-footer {
             display: block;
-            background: url(assets/img/logo-footer.png) no-repeat;
+            background: url(../assets/img/logo-footer.png) no-repeat;
             width: 244px;
             height: 42px;
             margin-top: 41px;
