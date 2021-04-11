@@ -101,9 +101,12 @@
 		                </div>
 		            </div>
 		            <p class="p-product">UN Approved Dangerous Goods Packaging Materials 4G or 4GV Fiberboard Box, 4D Plywood Box, Steel Drum Customized 100% Plywood and or Heat Treated Crates</p>
+		            <div class="col-lg-12">
+		            	<img src="<?= base_url()?>assets/img/dgpack/product/boxes.jpeg" style="width: 100%; margin-bottom: 10px;">
+		            </div>
 	        		<div class="masonry">
 					  <div class="grid">
-					    <img src="<?= base_url()?>assets/img/dgpack/product/Screenshot_1.png">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2021-04-10 at 13.46.18.jpeg">
 					    <div class="grid__body">
 					      <div class="relative">
 					        <a class="grid__link" target="_blank" href="/" ></a>
@@ -115,7 +118,7 @@
 					    </div>
 					  </div>
 					  <div class="grid">
-					    <img src="<?= base_url()?>assets/img/dgpack/product/Screenshot_2.png">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2021-04-10 at 13.46.24 (1).jpeg">
 					    <div class="grid__body">
 					      <div class="relative">
 					        <a class="grid__link" target="_blank" href="/" ></a>
@@ -127,7 +130,7 @@
 					    </div>
 					  </div>
 					  <div class="grid">
-					    <img src="<?= base_url()?>assets/img/dgpack/product/Screenshot_3.png">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2021-04-10 at 13.46.25.jpeg">
 					    <div class="grid__body">
 					      <div class="relative">
 					        <a class="grid__link" target="_blank" href="/" ></a>
@@ -139,7 +142,19 @@
 					    </div>
 					  </div>
 					  <div class="grid">
-					    <img src="<?= base_url()?>assets/img/dgpack/product/Screenshot_4.png">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2021-04-10 at 13.46.29.jpeg">
+					    <div class="grid__body">
+					      <div class="relative">
+					        <a class="grid__link" target="_blank" href="/" ></a>
+					        <h1 class="grid__title">Sample UN Pack 5</h1>
+					      </div>
+					      <div class="mt-auto" >
+					        <span class="grid__tag">#tag5</span>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="grid">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2021-04-10 at 13.46.20.jpeg">
 					    <div class="grid__body">
 					      <div class="relative">
 					        <a class="grid__link" target="_blank" href="/" ></a>
@@ -151,14 +166,14 @@
 					    </div>
 					  </div>
 					  <div class="grid">
-					    <img src="<?= base_url()?>assets/img/dgpack/product/Screenshot_5.png">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2021-04-10 at 13.46.24-1.jpeg">
 					    <div class="grid__body">
 					      <div class="relative">
 					        <a class="grid__link" target="_blank" href="/" ></a>
-					        <h1 class="grid__title">Sample UN Pack 5</h1>
+					        <h1 class="grid__title">Sample UN Pack 6</h1>
 					      </div>
 					      <div class="mt-auto" >
-					        <span class="grid__tag">#tag5</span>
+					        <span class="grid__tag">#tag6</span>
 					      </div>
 					    </div>
 					  </div>

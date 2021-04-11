@@ -58,4 +58,16 @@ class Dgpack extends CI_Controller {
 		$this->load->view('dgpack',$data,FALSE); 			  
 						
 	}
+	public function sertificates()
+	{		
+		$data['main'] = 'dgpack/sertificates';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
+	public function services()
+	{		
+		$data['main'] = 'dgpack/services';
+		$this->load->view('dgpack',$data,FALSE); 			  
+						
+	}
 }

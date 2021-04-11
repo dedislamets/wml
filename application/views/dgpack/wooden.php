@@ -101,7 +101,7 @@
 		                </div>
 		            </div>
 		            <div class="col-lg-12">
-		            	<img src="<?= base_url()?>assets/img/dgpack/product/102_1209.jpg" style="width: 100%; margin-bottom: 10px;">
+		            	<img src="<?= base_url()?>assets/img/dgpack/product/Screenshot_18.png" style="width: 100%; margin-bottom: 10px;">
 		            </div>
 
 	        	</div>

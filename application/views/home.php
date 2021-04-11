@@ -595,7 +595,7 @@
         <div class="color-part2"></div>
         <div class="color-part"></div>
         <div class="container-fluid">
-            <div class="row block-content">
+            <div class="row block-content" style="margin-bottom: 0;">
                 <div class="col-xs-8 col-sm-4 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
                     <a href="#" class="logo-footer"></a>
                     <p>Is one of logistics company in Indonesia with rapidly growth and focus for their market and customer satisfication. Starting business on 2001 with name PT Wahana Multi Indonesia, we develop existence business in transportation service. We are commit to provide best service to customer which is supported good management and profesional logistics skill</p>
@@ -606,17 +606,15 @@
                         <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
                         <a href="#"><i class="fa fa-vimeo-square fa-2x"></i></a>
                     </div>
-                    <a href="#" class="btn btn-lg btn-danger">GET A FREE QUOTE</a>
+                    <!-- <a href="#" class="btn btn-lg btn-danger">GET A FREE QUOTE</a> -->
                 </div>
                 <div class="col-xs-4 col-sm-2 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
                     <h4>WE OFFERS</h4>
                     <nav>
-                        <a href="#">Sea Freight</a>
-                        <a href="#">Road Transportation</a>
-                        <a href="#">Air Freight</a>
-                        <a href="#">Railway Logistics</a>
-                        <a href="#">Packaging &amp; Storage</a>
-                        <a href="#">Warehousing</a>
+                        <a href="<?= base_url() ?>services">Sea Freight</a>
+                        <a href="<?= base_url() ?>services">Road Transportation</a>
+                        <a href="<?= base_url() ?>services">Air Freight</a>
+                        <a href="http://www.atrhaya.co.id">Training</a>
                     </nav>
                 </div>
                 <div class="col-xs-6 col-sm-2 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
@@ -625,8 +623,6 @@
                         <a href="<?= base_url() ?>">Home</a>
                         <a href="<?= base_url() ?>services">Our Services</a>
                         <a href="<?= base_url() ?>about">About Us</a>
-                        <a href="#">News</a>
-                        <a href="#">Shop</a>
                         <a href="<?= base_url() ?>contact">Contact</a>
                     </nav>
                 </div>
