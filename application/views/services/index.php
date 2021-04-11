@@ -1,4 +1,14 @@
 <style type="text/css">
+	@media (max-width: 575px){
+		.about-low-area {
+		     display: block; 
+		     padding: 20px;
+		}
+
+		.inner-content {
+		    padding: 0px !important;
+		}
+	}
 	.sec-title h2 {
 	    font-size: 48px;
 	    margin-bottom: 88px;

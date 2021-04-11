@@ -1,3 +1,11 @@
+<style type="text/css">
+	@media (max-width: 575px){
+		.about-low-area {
+		     display: block; 
+		     padding: 20px;
+		}
+	}
+</style>
 <div class="slider-area ">
 	<div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">
 		<div class="container">
@@ -33,13 +41,13 @@
 						<h2>Mission</h2>
 					</div>
 					<ul>
-						<li>Providing a various logistics and multi-modal transportation services</li>
-						<li>Integrated logistics services improvement that bring benefit for the community</li>
-						<li>Providing the excellent service with the competitive prices.</li>
-						<li>Establish the network connection in various regions both in Indonesia and international</li>
-						<li>Facilitating the development of Human Resources So that it is valuable, professional, and highly competent</li>
-						<li>Provide the warehousing services for various types of goods with the best handling</li>
-						<li>Continuously develop service in the field of logistics</li>
+						<li style="list-style: square;">Providing a various logistics and multi-modal transportation services</li>
+						<li style="list-style: square;">Integrated logistics services improvement that bring benefit for the community</li>
+						<li style="list-style: square;">Providing the excellent service with the competitive prices.</li>
+						<li style="list-style: square;">Establish the network connection in various regions both in Indonesia and international</li>
+						<li style="list-style: square;">Facilitating the development of Human Resources So that it is valuable, professional, and highly competent</li>
+						<li style="list-style: square;">Provide the warehousing services for various types of goods with the best handling</li>
+						<li style="list-style: square;">Continuously develop service in the field of logistics</li>
 					</ul>
 				</div>
 			</div>

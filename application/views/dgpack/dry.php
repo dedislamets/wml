@@ -1,4 +1,7 @@
 <style type="text/css">
+	.logo-footer {
+        background: url(../assets/img/logo-footer.png) no-repeat;
+    }
 	.p-10{
 		padding: 10px;
 	}

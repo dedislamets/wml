@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-info mb-30">
+                    <div class="single-info">
                         <div class="info-icon">
                             <span class="flaticon-support"></span>
                         </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-info mb-30">
+                    <div class="single-info">
                         <div class="info-icon">
                             <span class="flaticon-clock"></span>
                         </div>
@@ -149,6 +149,21 @@
         </div>
     </div>
 </div>
+<section class="bg-100 py-7 text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-5">
+          <h2><a href="<?= base_url(); ?>dgpack">WAHANA DGPack</a></h2>
+          <p>DGPack Supplies all types of UN approved packaging and absorbent materials.</p>
+        </div>
+        <div class="pt-8">
+            <a href="<?= base_url(); ?>dgpack">
+                <img class="img-fluid" src="<?= base_url()?>assets/img/dgpack/product/boxes.jpeg" alt="">
+            </a>
+        </div>
+      </div>
+    </div><!-- end of .container-->
+</section>
 <div class="gallery categories-area section-padding30" style="padding-bottom: 20px;">
     <div class="container">
         <div class="row">
