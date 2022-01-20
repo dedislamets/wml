@@ -330,10 +330,13 @@
 
                     <div class="section-tittle mb-35">
                         <span>About Our Company</span>
-                        <h2>Safe Logistic & Transport Solutions That Saves our Valuable Time!</h2>
+                        <h2>We Serve Professionally</h2>
                     </div>
-                    <p>Wahana Multi Logistik (WML) agrees and has highest commitment to being able to meet or exceed customer expectations and maintain the quality of service to customers by applying the concept of appropriate operations, continuous improvement, helpful, trustworthiness and cooperation, by enforcing the efficiency of logistics services and providing a health workplace and safety</p>
-                    <a href="about.html" class="btn">More About Us</a>
+                    <p>Wahana Multi Logistik (WML Cargo) is a Best Logistics Company which is start has a good commitment since 2001 as PT.Wahana Multi Indonesia and chance name to PT.Wahana Multi Logistik with Mr.Agus Setiawan,SE,MMTr as a Director. 
+PT.Wahana Multi Logistik can give best sevices to every Customer and will take care of your Cargo in Handling. 
+PT.Wahana Multi Logistik also concern with the safety goods also with the regulation to make Customer Safe . 
+Another specific services in Cargo that PT.Wahana Multi Logistik has Wahana DGpack for handling all of type of Dangerous Goods class 1 - 9 in Land , Air and Sea Transport also.</p>
+                    <a href="#" class="btn">More About Us</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
