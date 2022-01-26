@@ -66,19 +66,25 @@
 					</div>
 				</div>
 				<div class="media contact-info">
-					<h3>Branch Cengkareng</h3>
-					<p>Komp. Ruko Duta Garden Square
-						Blok C-35, Jurumudi Baru, Benda
-						Tangerang – Banten 15124
-						Perkantoran Pasar Wisata
-						Jl. Raya Pabean Blok I/6, Pabean Sedati, Sidoarjo
-						Jawa Timur 61253</p>
+					<span class="contact-info__icon"><i class="ti-home"></i></span>
+					<div class="media-body">
+						<h3>Branch Cengkareng</h3>
+						<p>Komp. Ruko Duta Garden Square
+							Blok C-35, Jurumudi Baru, Benda
+							Tangerang – Banten 15124
+							Perkantoran Pasar Wisata
+							Jl. Raya Pabean Blok I/6, Pabean Sedati, Sidoarjo
+							Jawa Timur 61253</p>
+					</div>
 				</div>
 				<div class="media contact-info">
-					<h3>Branch Surabaya</h3>
-					<p>Perkantoran Pasar Wisata
-						Jl. Raya Pabean Blok I/6, Pabean Sedati, Sidoarjo
-						Jawa Timur 61253</p>
+					<span class="contact-info__icon"><i class="ti-home"></i></span>
+					<div class="media-body">
+						<h3>Branch Surabaya</h3>
+						<p>Perkantoran Pasar Wisata
+							Jl. Raya Pabean Blok I/6, Pabean Sedati, Sidoarjo
+							Jawa Timur 61253</p>
+					</div>
 				</div>
 				<div class="media contact-info">
 					<span class="contact-info__icon"><i class="ti-email"></i></span>
