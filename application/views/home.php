@@ -639,10 +639,11 @@
                         </span>
                         <span>
                             <i class="fa fa-location-arrow"></i>
-                            <strong>Wahana Multi Logistics.</strong>
-                            <br>Jalan Kemang Raya No. 52, Jati Cempaka,<br>
-                            <span style="padding-left: 25px;margin-bottom: 0;">Pondok Gede, Jatibening Baru, RT.001/RW.002, Jaticempaka, </span>
-                            <span style="padding-left: 25px;margin-bottom: 0;">Kec. Pondokgede, Kota Bekasi, Jawa Barat 17411</span>
+                            <strong>Branch Surabaya</strong>
+                            <br>Perkantoran Pasar Wisata<br>
+                            <span style="padding-left: 25px;margin-bottom: 0;">Jl. Raya Pabean Blok I/6, Pabean Sedati, </span>
+                            <span style="padding-left: 25px;margin-bottom: 0;">Sidoarjo
+                            Jawa Timur 61253</span>
                         </span>
                         <span>
                             <i class="fa fa-location-arrow"></i>
@@ -650,9 +651,6 @@
                             <br>Komp. Ruko Duta Garden Square<br>
                             <span style="padding-left: 25px;margin-bottom: 0;">Blok C-35, Jurumudi Baru, Benda
                                 Tangerang – Banten 15124</span>
-                            <br>Perkantoran Pasar Wisata<br>
-                            <span style="padding-left: 25px;margin-bottom: 0;">Jl. Raya Pabean Blok I/6, Pabean Sedati, Sidoarjo
-                            Jawa Timur 61253</span>
                         </span>
                         
                         <span><i class="fa fa-phone"></i>+ 6221 84998777</span>
