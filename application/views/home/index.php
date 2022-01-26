@@ -336,7 +336,7 @@
 PT.Wahana Multi Logistik can give best sevices to every Customer and will take care of your Cargo in Handling. 
 PT.Wahana Multi Logistik also concern with the safety goods also with the regulation to make Customer Safe . 
 Another specific services in Cargo that PT.Wahana Multi Logistik has Wahana DGpack for handling all of type of Dangerous Goods class 1 - 9 in Land , Air and Sea Transport also.</p>
-                    <a href="#" class="btn">More About Us</a>
+                    <a href="<?= base_url().'about' ?>" class="btn">More About Us</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
