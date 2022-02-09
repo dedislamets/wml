@@ -34,7 +34,7 @@
 	$("#btnShowLink").click(function(e, params){
     	app.id = $("#no_route").val();
 		$.get('https://www.wmlogistics.id/esys/trace/info', { id: $("#no_route").val() }, function(data){ 
-				if(data.data.penerima == null) app.id= '';
+				if(data.data.no_routing == null) app.id= '';
 				$("#nomor_spk").text(data['data']['spk_no']);
 				$("#moda").text(data['moda']['moda_name'] + '-' + data['moda']['moda_kategori'] + '-' + data['moda']['moda_subkategori']);
 				$("#project").text(data['data']['nama_project']);
