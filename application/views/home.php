@@ -1,5 +1,5 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -696,7 +696,8 @@
     <script src="<?= base_url(); ?>assets/js/plugins.js"></script>
     <script src="<?= base_url(); ?>assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-    <? $this->load->view($js); ?> 
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    
     <script type="text/javascript">
         $(document).ready(function(){
             
@@ -727,10 +728,6 @@
         }
       
     </script>
+    <? $this->load->view($js); ?> 
 </body>
 </html>
-
-<?php 
-// $this->load->view($js);
-
-?> 

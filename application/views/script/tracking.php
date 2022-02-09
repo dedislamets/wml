@@ -2,13 +2,12 @@
 	var app = new Vue({
 	    el: "#app",
 	    mounted: function () {
-	      this.loadHistory();
+	      // this.loadHistory();
 	      
 	    },
 	
 	    data: {
 	      history: [],
-	      maps: [],
 	      overlay: false,
 	      status_update:'',
 	      id: '',
@@ -21,8 +20,8 @@
 		        jQuery.ajax({
 		          type: "GET",
 		          cache:false,
-		          url: 'https://www.wmlogistics.id/esys/Trace/getHistory',
-		          data: {id: $("#id").val()},
+		          url: 'https://www.wmlogistics.id/esys/trace/tracking',
+		          data: {id: $("#no_route").val()},
 		          success: function(response) {          
 		              	that.history = response;
 		              	
@@ -35,6 +34,7 @@
 	$("#btnShowLink").click(function(e, params){
     	app.id = $("#no_route").val();
 		$.get('https://www.wmlogistics.id/esys/trace/info', { id: $("#no_route").val() }, function(data){ 
+				if(data.data.pengirim == null) app.id= '';
 				$("#nomor_spk").text(data['data']['spk_no']);
 				$("#moda").text(data['moda']['moda_name'] + '-' + data['moda']['moda_kategori'] + '-' + data['moda']['moda_subkategori']);
 				$("#project").text(data['data']['nama_project']);
