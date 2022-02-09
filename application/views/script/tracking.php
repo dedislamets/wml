@@ -49,7 +49,7 @@
 				$("#hp_pengirim").text(data['data']['hp_pengirim']);
 
 				$("#attn_penerima").text(data['data']['attn_penerima']);
-				$("#nama_penerima").text(data['data']['penerima']['cust_name']);
+				$("#nama_penerima").text((data['data']['penerima'] !=  null ? data['data']['penerima']['cust_name'] : ''));
 				$("#alamat_penerima").text(data['data']['alamat_penerima']);
 				$("#kota_penerima").text(data['data']['kota_penerima']);
 				$("#kec_penerima").text(data['data']['kec_penerima']);
