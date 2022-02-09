@@ -190,6 +190,16 @@
 	            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
 	                <div class="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
 	                    <div class="inner-box">
+	                        <figure class="image-box"><a href="#"><img src="<?= base_url() ?>assets/img/sbu.jpeg" alt=""></a></figure>
+	                        <div class="lower-content">
+	                            <h3><a href="#">STRATEGIC BUSINESS UNIT</a></h3>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+	                <div class="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
+	                    <div class="inner-box">
 	                        <figure class="image-box"><a href="#"><img src="<?= base_url() ?>assets/img/projects-002-1.jpg" alt=""></a></figure>
 	                        <div class="lower-content">
 	                            <h3><a href="#">PROJECT CONSULTING</a></h3>
@@ -202,7 +212,7 @@
 	                    <div class="inner-box">
 	                        <figure class="image-box"><a href="#"><img src="<?= base_url() ?>assets/img/packing_dangerous_goods_desktop.jpg" alt=""></a></figure>
 	                        <div class="lower-content">
-	                            <h3><a href="#">WAHANA DGPAC</a></h3>
+	                            <h3><a href="#">WAHANA DGPACK</a></h3>
 	                        </div>
 	                    </div>
 	                </div>

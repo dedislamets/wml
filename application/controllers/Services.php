@@ -11,6 +11,7 @@ class Services extends CI_Controller {
 	public function index()
 	{		
 		$data['main'] = 'services/index';
+		$data['js'] = 'script/no-script';
 		$this->load->view('home',$data,FALSE); 			  
 						
 	}

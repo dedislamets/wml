@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class About extends CI_Controller {
+class Tracking extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
@@ -10,8 +10,8 @@ class About extends CI_Controller {
 	}
 	public function index()
 	{		
-		$data['main'] = 'about/index';
-		$data['js'] = 'script/no-script';
+		$data['main'] = 'tracking/index';
+		$data['js'] = 'script/tracking';
 		$this->load->view('home',$data,FALSE); 			  
 						
 	}

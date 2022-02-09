@@ -67,7 +67,7 @@
                         </div>
                         <div class="info-caption">
                             <p>Email Us</p>
-                            <span>sales@wmlogistics.co.id</span>
+                            <span>herwinda_winda@wahanamulti.com</span>
                         </div>
                     </div>
                 </div>

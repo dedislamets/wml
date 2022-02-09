@@ -11,7 +11,7 @@ class Contact extends CI_Controller {
 	public function index()
 	{		
 		$data['main'] = 'contact/index';
-		// $data['js'] = 'home/js';
+		$data['js'] = 'script/no-script';
 		$this->load->view('home',$data,FALSE); 			  
 						
 	}

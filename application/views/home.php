@@ -550,6 +550,7 @@
                                         <nav>
                                             <ul id="navigation">
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>"><span>Home</span></a></li>
+                                                <li class="blue-bg"><a href="<?= base_url(); ?>tracking"><span>Tracking</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>about"><span>About</span></a></li>
                                                 <li class="blue-bg"><a href="<?= base_url(); ?>services"><span>Services</span></a></li>
                                                 <!-- <li class="blue-bg"><a href="blog.html"><span>Blog</span></a>
@@ -694,6 +695,8 @@
     <script src="<?= base_url(); ?>assets/js/tilt.jquery.js"></script>
     <script src="<?= base_url(); ?>assets/js/plugins.js"></script>
     <script src="<?= base_url(); ?>assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <? $this->load->view($js); ?> 
     <script type="text/javascript">
         $(document).ready(function(){
             
