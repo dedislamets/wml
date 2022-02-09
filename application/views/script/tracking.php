@@ -41,7 +41,7 @@
 				$("#tgl_routing").text(data['data']['CreatedDate']);
 
 				$("#attn_pengirim").text(data['data']['attn_pengirim']);
-				$("#nama_pengirim").text(data['data']['pengirim']['cust_name']);
+				$("#nama_pengirim").text((data['data']['pengirim'] !=  null ? data['data']['pengirim']['cust_name'] : ''));
 				$("#alamat_pengirim").text(data['data']['alamat_pengirim']);
 				$("#kota_pengirim").text(data['data']['kota_pengirim']);
 				$("#kec_pengirim").text(data['data']['kec_pengirim']);
