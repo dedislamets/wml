@@ -780,7 +780,8 @@
                             <span style="padding-left: 25px;margin-bottom: 0;">Pondok Gede, Jatibening Baru, RT.001/RW.002, Jaticempaka, </span>
                             <span style="padding-left: 25px;margin-bottom: 0;">Kec. Pondokgede, Kota Bekasi, Jawa Barat 17411</span>
                         </span>
-                        <span><i class="fa fa-phone"></i>+ 6221 84998777</span>
+                        <span style="margin-bottom: 0;"><i class="fa fa-phone" style="margin-bottom: 0;"></i>+ 6221 84998777</span>
+                        <span><i class="fa fa-mobile" style="margin-right: 15px;"></i>08111632069</span>
                         <span><i class="fa fa-envelope"></i>sales@wmlogistics.co.id</span>
                     </div>
                 </div>

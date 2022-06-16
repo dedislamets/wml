@@ -654,7 +654,8 @@
                                 Tangerang – Banten 15124</span>
                         </span>
                         
-                        <span><i class="fa fa-phone"></i>+ 6221 84998777</span>
+                        <span style="margin-bottom: 0;"><i class="fa fa-phone" style="margin-bottom: 0;"></i>+ 6221 84998777</span>
+                        <span><i class="fa fa-mobile" style="margin-right: 15px;"></i>08111632069</span>
                         <span><i class="fa fa-envelope"></i>herwinda_winda@wahanamulti.com</span>
                     </div>
                 </div>
