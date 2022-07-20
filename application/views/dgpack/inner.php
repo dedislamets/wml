@@ -144,7 +144,18 @@
 					      </div>
 					    </div>
 					  </div>
-					  
+					  <div class="grid">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/wht_bx.jpeg">
+					    <div class="grid__body">
+					      <div class="relative">
+					        <a class="grid__link" target="_blank" href="/" ></a>
+					        <h1 class="grid__title"></h1>
+					      </div>
+					      <div class="mt-auto" >
+					        <span class="grid__tag">#tag4</span>
+					      </div>
+					    </div>
+					  </div>
 					</div>
 	        	</div>
 	        </div>

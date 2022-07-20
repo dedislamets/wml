@@ -180,7 +180,42 @@
 					      </div>
 					    </div>
 					  </div>
-					  
+					  <div class="grid">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2022-07-20 at 17.27.16.jpeg">
+					    <div class="grid__body">
+					      <div class="relative">
+					        <a class="grid__link" target="_blank" href="/" ></a>
+					        <h1 class="grid__title">Sample UN Pack 7</h1>
+					      </div>
+					      <div class="mt-auto" >
+					        <span class="grid__tag">#tag7</span>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="grid">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2022-07-20 at 17.28.18 (1).jpeg">
+					    <div class="grid__body">
+					      <div class="relative">
+					        <a class="grid__link" target="_blank" href="/" ></a>
+					        <h1 class="grid__title">Sample UN Pack 8</h1>
+					      </div>
+					      <div class="mt-auto" >
+					        <span class="grid__tag">#tag8</span>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="grid">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2022-07-20 at 17.28.18.jpeg">
+					    <div class="grid__body">
+					      <div class="relative">
+					        <a class="grid__link" target="_blank" href="/" ></a>
+					        <h1 class="grid__title">Sample UN Pack 9</h1>
+					      </div>
+					      <div class="mt-auto" >
+					        <span class="grid__tag">#tag9</span>
+					      </div>
+					    </div>
+					  </div>
 					</div>
 	        	</div>
 	            <!-- <div class="row">

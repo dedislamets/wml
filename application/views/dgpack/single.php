@@ -153,6 +153,28 @@
 					      </div>
 					    </div>
 					  </div>
+					  <div class="grid">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2022-07-20 at 17.27.17.jpeg">
+					    <div class="grid__body">
+					      <div class="relative">
+					        <a class="grid__link" target="_blank" href="/" ></a>
+					      </div>
+					      <div class="mt-auto" >
+					        <span class="grid__tag">#tag5</span>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="grid">
+					    <img src="<?= base_url()?>assets/img/dgpack/product/WhatsApp Image 2022-07-20 at 17.27.17 (1).jpeg">
+					    <div class="grid__body">
+					      <div class="relative">
+					        <a class="grid__link" target="_blank" href="/" ></a>
+					      </div>
+					      <div class="mt-auto" >
+					        <span class="grid__tag">#tag5</span>
+					      </div>
+					    </div>
+					  </div>
 					</div>
 	        	</div>
 	        </div>

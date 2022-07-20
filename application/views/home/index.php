@@ -316,6 +316,28 @@
                             </a>
                         </figure>
                     </li>
+                    <li class="wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/WhatsApp Image 2022-07-20 at 17.27.16.jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                   
+                    <li class="wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/WhatsApp Image 2022-07-20 at 17.28.18 (1).jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
+                    <li class="wow flipInY" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <figure>
+                            <a href="assets/img/image1.jpg" class="fancybox">
+                                <img src="assets/img/WhatsApp Image 2022-07-20 at 17.28.18.jpeg" alt="Image">
+                            </a>
+                        </figure>
+                    </li>
                 </ul>
             </div>
         </div>
