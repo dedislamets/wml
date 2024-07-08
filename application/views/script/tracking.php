@@ -20,7 +20,7 @@
 		        jQuery.ajax({
 		          type: "GET",
 		          cache:false,
-		          url: 'https://www.esys.wmlogistics.id/trace/tracking',
+		          url: 'https://www.esys.wmlogistics.co.id/trace/tracking',
 		          data: {id: $("#no_route").val()},
 		          success: function(response) {          
 		              	that.history = response;
